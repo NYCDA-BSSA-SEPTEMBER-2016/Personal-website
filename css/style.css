@@ -1,3 +1,33 @@
 header {
-	background-image: url('../img/spaceisonlynoice.jpg');
+	background-image: url("../img/road.jpeg");
 }
+header .header-content .header-content-inner h1 {
+	font-family: Georgia;
+}
+
+.btn-primary {
+	background-color: #5F9EA0;
+
+}
+.row {
+	background-color: #5F9EA0;
+}
+.bg-primary {
+	background-color: #5F9EA0;
+}
+#services {
+background-color: black;
+}
+.section-heading {
+	font-family: Georgia;
+	color: white;
+}
+
+@media (min-width: 768px) {
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #5F9EA0;
+   }
+
+ .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: #5F9EA0!important;
+    background-color: transparent;
