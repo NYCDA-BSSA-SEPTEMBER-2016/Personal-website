@@ -1,0 +1,16 @@
+#name{
+	font-size: 100px;
+}
+
+#age {
+	font-size: 75px;
+}
+
+#headerEducation{
+	font-size: 50px
+}
+.education {
+	font-family: Georgia;
+	font-size: 50px;
+	color: black;
+}
