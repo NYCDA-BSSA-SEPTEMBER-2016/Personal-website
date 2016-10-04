@@ -1,3 +1,4 @@
+
 header {
 	background-image: url("../img/road.jpeg");
 }
@@ -17,6 +18,10 @@ header .header-content .header-content-inner p {
     font-family: Georgia;
     color: blanchedalmond;
 
+}
+
+.underline {
+	border-color: blanchedalmond;
 }
 .section-heading2 {
 	font-family: Georgia;
@@ -39,16 +44,35 @@ header .header-content .header-content-inner p {
 .bg-primary {
 	background-color: #5F9EA0;
 }
-#services {
-background-color: white;
+
+.bk-services {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 150px;
+
 }
-.section-heading {
-	font-family: Georgia;
-	color: blanchedalmond;
+.container2 {
+	background-color: white;
+}
+
+.row2 {
+	background-color: white;
+}
+
+.row1 {
+	background-color: white;
+}
+
+.section-heading3 {
+	color: black;
+}
+
+.primary2 {
+	border-color: black;
 }
 
 .text-primary {
-color: blanchedalmond;
+color: black;
 }
 
 @media (min-width: 768px) {
@@ -59,3 +83,7 @@ color: blanchedalmond;
  .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
     color: #5F9EA0!important;
     background-color: transparent;
+}
+  #contact {
+  	background-color: #5F9EA0;
+  }
