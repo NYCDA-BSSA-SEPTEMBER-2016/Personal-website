@@ -23,11 +23,20 @@ header .header-content .header-content-inner p {
 .underline {
 	border-color: blanchedalmond;
 }
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #5F9EA0;
+    background-color: blanchedalmond;
+    border-color: #ed431f;
+}
+
 .section-heading2 {
 	font-family: Georgia;
     color: blanchedalmond;
 }
-
+hr.light {
+    border-color: blanchedalmond;
+}
 .text-faded {
     color: blanchedalmond;
     font-family: 'Titillium Web', sans-serif;
@@ -38,6 +47,11 @@ header .header-content .header-content-inner p {
 	color: blanchedalmond;
 
 }
+.btn-default {
+	color:#5F9EA0;
+    background-color: blanchedalmond;
+}
+
 .row {
 	background-color: #5F9EA0;
 }
@@ -80,29 +94,35 @@ color: black;
     color: #5F9EA0;
    }
 
+ .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: black;
+}
+
  .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
     color: #5F9EA0!important;
     background-color: transparent;
 }
+
+.navbar-default.affix .nav>li>a:hover {
+    color: blanchedalmond;
+   }
+
   #contact {
   	background-color: #5F9EA0;
+  	font-family: 'Titillium Web', sans-serif;
+	color: blanchedalmond;
   }
+
 
 .primary4 {
 	border-color: blanchedalmond;
 }
-
-#contactp {
-	font-family: 'Titillium Web', sans-serif;
-	color: blanchedalmond;
+a {
+  color: blanchedalmond;
 }
-
-#numberp {
-	font-family: 'Titillium Web', sans-serif;
-	color: blanchedalmond;
-}
-
-#emailp {
-	font-family: 'Titillium Web', sans-serif;
-	color: blanchedalmond;
+a:hover {
+    color: black;
+a:focus {
+  color: black;
 }
