@@ -113,6 +113,9 @@ color: black;
   	font-family: 'Titillium Web', sans-serif;
 	color: blanchedalmond;
   }
+.portfolio-box .portfolio-box-caption {
+	background-color: rgba(95, 158, 160,.9);
+}
 
 
 .primary4 {
