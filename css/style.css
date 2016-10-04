@@ -87,3 +87,22 @@ color: black;
   #contact {
   	background-color: #5F9EA0;
   }
+
+.primary4 {
+	border-color: blanchedalmond;
+}
+
+#contactp {
+	font-family: 'Titillium Web', sans-serif;
+	color: blanchedalmond;
+}
+
+#numberp {
+	font-family: 'Titillium Web', sans-serif;
+	color: blanchedalmond;
+}
+
+#emailp {
+	font-family: 'Titillium Web', sans-serif;
+	color: blanchedalmond;
+}
