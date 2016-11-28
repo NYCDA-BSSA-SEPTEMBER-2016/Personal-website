@@ -1,0 +1,138 @@
+$textcolor : blanchedalmond;
+$font-family-header : Georgia;
+$font-family-body : 'Titillium Web', sans-serif;
+
+header {
+	background-image: url("../img/road.jpeg");
+	.header-content .header-content-inner h1 {
+		font-family: Georgia;
+		color: $textcolor; 
+	}
+	.header-content .header-content-inner p {
+		font-weight: 300;
+		color: $textcolor;
+		font-size: 16px;
+		margin-bottom: 50px;
+		font-family: $font-family-body;
+	}
+
+}
+
+.section-heading {
+	font-family: $font-family-header;
+	color: $textcolor;
+}
+
+
+.underline {
+	border-color: $textcolor;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+	color: #5F9EA0;
+	background-color: $textcolor;
+	border-color: #ed431f;
+}
+
+.section-heading2 {
+	font-family: Georgia;
+	color: $textcolor;
+}
+hr.light {
+	color: $textcolor;
+}
+.text-faded {
+	color: $textcolor;
+	font-family: $font-family-body;
+}
+
+.btn-primary {
+	background-color: #5F9EA0;
+	color: $textcolor;
+
+}
+.btn-default {
+	color:#5F9EA0;
+	background-color: $textcolor;
+}
+
+.row {
+	background-color: #5F9EA0;
+}
+.bg-primary {
+	background-color: #5F9EA0;
+}
+
+.bk-services {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 150px;
+
+}
+.container2 {
+	background-color: white;
+}
+
+.row2 {
+	background-color: white;
+}
+
+.row1 {
+	background-color: white;
+}
+
+.section-heading3 {
+	color: black;
+}
+
+.primary2 {
+	border-color: black;
+}
+
+.text-primary {
+	color: black;
+}
+
+@media (min-width: 768px) {
+	.navbar-default.affix .navbar-header .navbar-brand {
+		color: #5F9EA0;
+	}
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+	color: black;
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+	color: #5F9EA0!important;
+	background-color: transparent;
+}
+
+.navbar-default.affix .nav>li>a:hover {
+	color: #5F9EA0;
+}
+
+#contact {
+	background-color: #5F9EA0;
+	font-family: $font-family-body;
+	color: blanchedalmond;
+}
+.portfolio-box .portfolio-box-caption {
+	background-color: rgba(95, 158, 160,.5);
+}
+
+
+.primary4 {
+	border-color: $textcolor;
+}
+a {
+	color: $textcolor;
+}
+
+a:hover {
+	color: black;
+}
+a:focus {
+	color: black;
+}
