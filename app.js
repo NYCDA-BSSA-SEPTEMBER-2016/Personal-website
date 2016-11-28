@@ -1,8 +1,17 @@
-const express 	= require('express')
-const app 		= express()
+const express 			= require('express')
+const app 				= express()
+const sassMiddleware 	= require('node-sass-middleware')
 
 
-app.use(express.static('static'));
+app.use(
+	sassMiddleware({
+		src: __dirname + '/static/css', 
+		dest: __dirname + '/static/css',
+		debug: true
+	})
+)
+
+app.use(express.static('static'))
 
 app.get('/', (req, res) =>{
 	console.log('someone opened the main page')
